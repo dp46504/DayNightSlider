@@ -1,0 +1,66 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: gray;
+}
+
+.checkbox {
+  position: absolute;
+  top: 10rem;
+  left: 12rem;
+  width: 10rem;
+  aspect-ratio: 2.5;
+  background-color: gray;
+  border-radius: 4rem;
+  transition: all 300ms;
+  overflow: clip;
+}
+
+.checkbox-sun-background {
+  background-color: #3a89c7;
+  background-image: url("/res/images/clouds.png");
+  background-size: cover;
+  background-position: 50% -10%;
+  background-repeat: no-repeat;
+  box-shadow: -0.3rem -0.16rem 0.8rem #1b4665 inset;
+}
+
+.checkbox-moon-background {
+  background-color: #0e0e0e;
+  background-image: url("/res/images/stars.png");
+  background-size: cover;
+  background-position: 40%;
+  background-repeat: repeat;
+  box-shadow: -0.2rem -0.3rem 0.6rem #000000 inset, 0.2rem 0.2rem 0.6rem #000000;
+}
+
+.moon {
+  background-image: url("res/images/moon.png") !important;
+  filter: drop-shadow(-0.2rem 0.1rem 1.6rem #818181);
+}
+
+.sun {
+  background-image: url("res/images/sun.png") !important;
+  filter: drop-shadow(0.1rem 0.1rem 0.8rem #9e8b35);
+}
+
+.slide {
+  transform: translateX(6rem);
+}
+
+.checkbox-slider {
+  background-image: url("res/images/sun.png");
+  background-position: center center;
+  background-size: contain;
+  position: absolute;
+  margin: 0.3333333333rem;
+  left: 0;
+  top: 0;
+  aspect-ratio: 1;
+  width: 3.3333333333rem;
+  border-radius: 1.6666666667rem;
+  transition: all 300ms ease-in-out;
+}
+
+/*# sourceMappingURL=style.css.map */
